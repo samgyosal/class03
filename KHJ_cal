@@ -1,0 +1,14 @@
+
+print("계산기") 
+
+num1 = float(input("첫번째 숫자를 입력하세요:"))
+num2 = float(input("두번째 숫자를 입력하세요:"))
+기호 = input("기호를 입력하세요(+,-,/,*):")
+if 기호 == "+":
+    print("두 수의 합은 %.1f 입니다."%(num1 + num2))
+elif 기호 == "-":
+    print("두 수의 합은 %.1f 입니다."%(num1 - num2))
+elif 기호 == "/":
+    print("두 수의 합은 %.1f 입니다."%(num1 / num2))
+elif 기호 == "*":
+    print("두 수의 합은 %.1f 입니다."%(num1 * num2))
